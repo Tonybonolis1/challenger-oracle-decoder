@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-size: 16px; /* Tamaño de fuente base */
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px; /* Padding reducido para el header */
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px; /* Tamaño de fuente ajustado para el título */
+}
+
+.encryption-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Tamaño máximo para la imagen */
+    margin: 10px auto; /* Centrado y margen más pequeño */
+}
+
+.container {
+    flex: 1;
+    padding: 15px; /* Padding reducido para el contenedor */
+    width: 100%;
+    max-width: 700px; /* Tamaño máximo aumentado */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px; /* Padding aumentado para el textarea */
+    margin: 10px 0; /* Margen reducido para el textarea */
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Bordes más redondeados */
+    resize: none;
+    box-sizing: border-box;
+    font-size: 14px; /* Tamaño de fuente reducido para el textarea */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px; /* Padding aumentado para los botones */
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 12px; /* Bordes más redondeados */
+    cursor: pointer;
+    font-size: 14px; /* Tamaño de fuente reducido para los botones */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 8px; /* Padding reducido para el footer */
+    text-align: center;
+    width: 100%;
+    font-size: 14px; /* Tamaño de fuente ajustado para el footer */
+    box-sizing: border-box;
+}
